@@ -9,7 +9,6 @@ class Sum {
         for (int i = 0; ; i++) {
             for (int j = 0; j < 3; j++) {
                 int number = random.nextInt(10);
-                System.out.println(number);
                 array[j] = number;
             }
             if (array[0] + array[1] - array[2] == 0) {
